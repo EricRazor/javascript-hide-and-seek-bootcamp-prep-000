@@ -3,6 +3,8 @@ function getFirstSelector(selector){
   return element;
 }
 
-function nestedTarget(){
+function nestedTarget(target){
+  
+  return target
   
 }
