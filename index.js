@@ -31,6 +31,6 @@ function increaseRankBy(n){
       start = 12
 
       for (let i = 0, l = children.length; i < l; i++) {
-        expect(parseInt(children[i].innerHTML)).toEqual(start - i + 3)
+        parseInt(children[i].innerHTML) === (start - i + 3)
       }
 }
