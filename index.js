@@ -9,7 +9,6 @@ function nestedTarget(target){
 }
 
 function deepestChild(child){
-  var deepest = document.querySelector('grand-node')
-  
+  var deepest = document.querySelector('#grand-node div div div div')
   return deepest;
 }
