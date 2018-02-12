@@ -6,5 +6,8 @@ function getFirstSelector(selector){
 function nestedTarget(target){
   var nested = document.getElementById('nested');
   return nested
+}
+
+function deepestChild(child){
   
 }
