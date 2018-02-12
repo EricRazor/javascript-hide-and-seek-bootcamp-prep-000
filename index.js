@@ -4,6 +4,6 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(target){
-  var nested = document.getElementById("");
+  var nested = document.getElementById('nested').getElementBy;
   
 }
