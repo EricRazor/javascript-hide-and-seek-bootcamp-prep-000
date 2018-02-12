@@ -15,5 +15,5 @@ function deepestChild(child){
 
 function increaseRankBy(n){
   var rankedLists = document.querySelectorAll('.ranked-list')
-  return theRank
+  return rankedLists
 }
