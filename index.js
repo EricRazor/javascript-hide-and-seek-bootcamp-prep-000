@@ -14,5 +14,6 @@ function deepestChild(child){
 }
 
 function increaseRankBy(n){
-  var theRank = document.get
+  var theRank = document.querySelectorAll(n)
+  return theRank
 }
