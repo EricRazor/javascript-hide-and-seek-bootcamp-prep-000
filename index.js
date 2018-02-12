@@ -18,5 +18,7 @@ function increaseRankBy(n){
   var firstList = rankedLists[0]
   var secondList = rankedLists[1]
   
+  
+  
   return ; 
 }
