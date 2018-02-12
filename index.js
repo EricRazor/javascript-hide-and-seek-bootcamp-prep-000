@@ -8,8 +8,8 @@ function nestedTarget(target){
   return nested;
 }
 
-function deepestChild(child,deepestChild){
-  var deepest = document.getElementById('child').querySelectorAll('deepestChild');
+function deepestChild(child){
+  var deepest = document.getElementById('child');
   return deepest.innerHTML;
 }
 
