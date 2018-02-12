@@ -5,10 +5,10 @@ function getFirstSelector(selector){
 
 function nestedTarget(target){
   var nested = document.getElementById('nested');
-  return nested
+  return nested;
 }
 
 function deepestChild(child){
-  var deepest = document.querySelector(child).innerHTML
-  return deepest
+  var deepest = document.querySelector(child).innerHTML;
+  return deepest;
 }
