@@ -13,4 +13,3 @@ function deepestChild(child){
   
   return deepest.innerHTML;
 }
-
