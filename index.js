@@ -9,5 +9,6 @@ function nestedTarget(target){
 }
 
 function deepestChild(child){
-  var deepest = document.getElementById
+  var deepest = document.getElementById(child.innerHTML)
+  return deepest
 }
