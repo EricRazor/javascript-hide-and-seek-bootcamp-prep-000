@@ -9,8 +9,8 @@ function nestedTarget(target){
 }
 
 function deepestChild(child){
-  var deepest = document.getElementById('child');
-  deepest.innerHTML
-  return deepest;
+  var deepest = document.getElementById('child').querySelectorAll('div');
+  
+  return deepest.innerHTML;
 }
 
